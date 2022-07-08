@@ -1,0 +1,5 @@
+/Users/ece.topguloglu/Desktop/EventSourcing/orderdeneme/src/EventBus/obj/Debug/net6.0/EventBus.csproj.AssemblyReference.cache
+/Users/ece.topguloglu/Desktop/EventSourcing/orderdeneme/src/EventBus/obj/Debug/net6.0/EventBus.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ece.topguloglu/Desktop/EventSourcing/orderdeneme/src/EventBus/obj/Debug/net6.0/EventBus.AssemblyInfoInputs.cache
+/Users/ece.topguloglu/Desktop/EventSourcing/orderdeneme/src/EventBus/obj/Debug/net6.0/EventBus.AssemblyInfo.cs
+/Users/ece.topguloglu/Desktop/EventSourcing/orderdeneme/src/EventBus/obj/Debug/net6.0/EventBus.csproj.CoreCompileInputs.cache

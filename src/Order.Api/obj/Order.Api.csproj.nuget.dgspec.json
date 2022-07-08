@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Api/Order.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Api/Order.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Api/Order.Api.csproj",
+        "projectName": "Order.Api",
+        "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Api/Order.Api.csproj",
+        "packagesPath": "/Users/ece.topguloglu/.nuget/packages/",
+        "outputPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ece.topguloglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/Order.Application.csproj": {
+                "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/Order.Application.csproj"
+              },
+              "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Infrastructure/Order.Infrastructure.csproj": {
+                "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Infrastructure/Order.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/Order.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/Order.Application.csproj",
+        "projectName": "Order.Application",
+        "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/Order.Application.csproj",
+        "packagesPath": "/Users/ece.topguloglu/.nuget/packages/",
+        "outputPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ece.topguloglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/Order.Domain.csproj": {
+                "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/Order.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22301.12, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22301.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/Order.Domain.csproj",
+        "projectName": "Order.Domain",
+        "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/Order.Domain.csproj",
+        "packagesPath": "/Users/ece.topguloglu/.nuget/packages/",
+        "outputPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ece.topguloglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0-pre03, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Infrastructure/Order.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Infrastructure/Order.Infrastructure.csproj",
+        "projectName": "Order.Infrastructure",
+        "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Infrastructure/Order.Infrastructure.csproj",
+        "packagesPath": "/Users/ece.topguloglu/.nuget/packages/",
+        "outputPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ece.topguloglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/Order.Application.csproj": {
+                "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Application/Order.Application.csproj"
+              },
+              "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/Order.Domain.csproj": {
+                "projectPath": "/Users/ece.topguloglu/Desktop/EventSourcing/eventsourcing-order/src/Order.Domain/Order.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22301.12, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22301.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
