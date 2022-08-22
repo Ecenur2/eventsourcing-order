@@ -23,7 +23,7 @@ public class OrderMetricReadModelWriter : BackgroundService,IEventHandler
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
-    {
+    { 
         while (!stoppingToken.IsCancellationRequested)
         {
             try
